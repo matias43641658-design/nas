@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Publicador NAS · Legales</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+/* Layout: una columna de lectura, cabecera con la marca del canal */
+:root{--bg:#f6f7fb;--fg:#1b2238;--muted:#5a6280;--brand:#1d2b52;--accent:#e8622c;--line:#dde1ee;--card:#ffffff;
+--display:"Baloo 2","Trebuchet MS",sans-serif;--body:"Source Sans 3","Segoe UI",system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#11162a;--fg:#e9ecf6;--muted:#a3abc6;--brand:#f2c14e;--accent:#ff8a57;--line:#2a3150;--card:#171d35;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#11162a;--fg:#e9ecf6;--muted:#a3abc6;--brand:#f2c14e;--accent:#ff8a57;--line:#2a3150;--card:#171d35;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:400 17px/1.6 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:40px 64px}
+main{max-width:680px;margin:0 auto;display:grid;gap:36px}
+header{display:grid;gap:6px}
+.eyebrow{font:600 13px/1 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+h1{font:800 clamp(30px,6vw,42px)/1.05 var(--display);color:var(--brand);margin:0;text-wrap:balance}
+h2{font:700 26px/1.15 var(--display);color:var(--brand);margin:0 0 8px;text-wrap:balance}
+h3{font:600 17px/1.3 var(--body);margin:18px 0 4px}
+p,li{margin:0 0 10px;color:var(--fg)}
+ul{padding-left:20px;margin:0 0 10px}
+.meta{color:var(--muted);font-size:15px}
+section{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px max(18px,4vw)}
+nav{display:flex;gap:16px;flex-wrap:wrap;font-weight:600}
+a{color:var(--accent)} a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+</style>
+<script>addEventListener("DOMContentLoaded",()=>document.getElementById("terminos").scrollIntoView())</script></head><body>
+<main>
+  <header>
+    <span class="eyebrow">Noticias Animadas Salta</span>
+    <h1>Publicador NAS</h1>
+    <p class="meta">Herramienta interna con la que el canal sube sus propios videos a su cuenta de TikTok. Última actualización: 7 de noviembre de 2026.</p>
+    <nav><a href="privacidad.html">Política de privacidad</a><a href="terminos.html">Términos de servicio</a></nav>
+  </header>
+
+  <section id="privacidad">
+    <h2>Política de privacidad</h2>
+    <p>Publicador NAS es una aplicación de uso privado del canal "Noticias Animadas Salta". La usa únicamente su administrador para enviar a su propia cuenta de TikTok los videos que produce el canal.</p>
+    <h3>Qué datos usamos</h3>
+    <ul>
+      <li>La información básica del perfil de TikTok del canal (nombre de usuario y foto) que TikTok entrega al autorizar la aplicación.</li>
+      <li>Los tokens de acceso que TikTok emite para subir videos a la bandeja de borradores de esa cuenta.</li>
+    </ul>
+    <h3>Para qué los usamos</h3>
+    <p>Solo para subir los videos del canal como borradores. El administrador revisa y publica cada video desde la app de TikTok. No leemos mensajes, seguidores ni datos de otros usuarios.</p>
+    <h3>Dónde se guardan</h3>
+    <p>Los tokens se guardan en un archivo privado en la computadora del administrador. No se venden, no se comparten con terceros y no se usan con fines publicitarios.</p>
+    <h3>Cómo revocar el acceso</h3>
+    <p>En la app de TikTok: Configuración y privacidad → Seguridad → Apps y servicios, y quitar "Publicador NAS". Al hacerlo, la aplicación deja de tener acceso de inmediato.</p>
+  </section>
+
+  <section id="terminos">
+    <h2>Términos de servicio</h2>
+    <p>Publicador NAS no es un servicio abierto al público: solo puede usarlo la cuenta oficial de "Noticias Animadas Salta".</p>
+    <ul>
+      <li>El contenido subido es producido por el canal, que es responsable de él y de cumplir las Normas de la comunidad de TikTok.</li>
+      <li>La aplicación solo sube videos a borradores; ninguna publicación ocurre sin la confirmación del administrador en TikTok.</li>
+      <li>El uso de TikTok sigue sujeto a los términos de servicio de TikTok.</li>
+      <li>El canal puede modificar o discontinuar esta herramienta en cualquier momento.</li>
+    </ul>
+  </section>
+</main>
+
+</body></html>
